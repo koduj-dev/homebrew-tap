@@ -1,28 +1,28 @@
 class Dockercmd < Formula
   desc "Monitor and control Docker from one self-contained binary"
   homepage "https://github.com/koduj-dev/docker-commander"
-  version "1.6.0"
+  version "1.6.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/koduj-dev/docker-commander/releases/download/v1.6.0/dockercmd-darwin-amd64"
-      sha256 "afbd6e1c973ec650ead63a3fb81632d5ac0ae680172fece67ef3d27ca1a89a91"
+      url "https://github.com/koduj-dev/docker-commander/releases/download/v1.6.1/dockercmd-darwin-amd64"
+      sha256 "4f2f192d2e27e8802845ae70c191bfbe588588b11c8d57aa2322c0beaeb0efab"
     end
     on_arm do
-      url "https://github.com/koduj-dev/docker-commander/releases/download/v1.6.0/dockercmd-darwin-arm64"
-      sha256 "468cfc5701c260ddc2c1ba6713660a66c08a8aabbb7f7e1252026955fb0add17"
+      url "https://github.com/koduj-dev/docker-commander/releases/download/v1.6.1/dockercmd-darwin-arm64"
+      sha256 "20605b3a212cbb34a92916252c8022e779fe4ace2e7a376e3799aee7a19c60a6"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/koduj-dev/docker-commander/releases/download/v1.6.0/dockercmd-linux-amd64"
-      sha256 "cc9cfb0349516df8133fd8d247ef9020e3970362c79c0ec1166de9a9a71f2820"
+      url "https://github.com/koduj-dev/docker-commander/releases/download/v1.6.1/dockercmd-linux-amd64"
+      sha256 "3168828e48f916883b3642bbbd39c00a5b308c062c62bc51c7a463d6775b61aa"
     end
     on_arm do
-      url "https://github.com/koduj-dev/docker-commander/releases/download/v1.6.0/dockercmd-linux-arm64"
-      sha256 "4c1e90eb73f939387e34f7175c4971cf1dca51dcbafd918dae587c4ec15d9767"
+      url "https://github.com/koduj-dev/docker-commander/releases/download/v1.6.1/dockercmd-linux-arm64"
+      sha256 "acf8578710f7606aaa2c9b4f7aa1898a227e4ca11fe44840cce4f36b9ccd2608"
     end
   end
 
